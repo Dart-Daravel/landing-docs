@@ -14,5 +14,5 @@ navbar: false
 # Install Daravel
 dart pub global activate daravel_core
 # Create New Project
-daravel new <project>
+dartisan new <project>
 ```

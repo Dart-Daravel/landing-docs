@@ -21,3 +21,25 @@ dart pub global activate daravel_core
 ```
 
 ## Create a Project
+
+To create a Daravel project, run:
+
+```bash
+dartisan new <project>
+```
+
+## Run
+
+To run you application, do thr following at the root of your project:
+
+```bash
+dartisan serve
+```
+
+Default server port is `8080`. To use a different port, use the below
+
+```bash
+dartisan serve -p 3000
+```
+
+You can change the port via a `PORT` environment variable or an `APP_PORT` value in your `.env` file.
