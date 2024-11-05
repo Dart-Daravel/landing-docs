@@ -1,0 +1,34 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#main-title {
+  font-size: 10em;
+  margin-top: 5vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.mr-2 {
+  margin-right: 2em;
+}
+
+.mb-2 {
+  margin-bottom: 2em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.my-2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.button {
+  text-decoration: none !important;
+}
+
+.center {
+  text-align: center;
+}

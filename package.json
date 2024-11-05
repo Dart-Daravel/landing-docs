@@ -13,13 +13,14 @@
     "url": "git+https://github.com/Dart-Daravel/landing-docs.git"
   },
   "author": "",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Dart-Daravel/landing-docs/issues"
   },
   "homepage": "https://github.com/Dart-Daravel/landing-docs#readme",
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.15",
+    "@vuepress/plugin-toc": "^2.0.0-beta.7",
     "@vuepress/theme-default": "^2.0.0-rc.49",
     "sass-embedded": "^1.79.3",
     "vuepress": "^2.0.0-rc.15"
