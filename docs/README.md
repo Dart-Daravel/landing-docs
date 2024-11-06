@@ -10,7 +10,7 @@ navbar: false
 
 <p class="center my-2">To Get Started</p>
 
-```bash
+```bash:no-line-numbers
 # Install Daravel
 dart pub global activate daravel_core
 # Create New Project

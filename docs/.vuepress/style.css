@@ -32,3 +32,13 @@ body {
 .center {
   text-align: center;
 }
+
+.code-no-line-numbers .line-numbers {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  #main-title {
+    font-size: 5em;
+  }
+}

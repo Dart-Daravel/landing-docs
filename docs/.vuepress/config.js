@@ -8,20 +8,62 @@ export default defineUserConfig({
         {
             sidebar: [
                 {
-                    title: 'Get Started',
-                    text: 'Installation',
+                    text: 'Getting Started',
                     children: [
                         {
                             text: 'Installation',
-                            link: '/installation',
+                            link: '/getting-started/installation',
                         },
                         {
                             text: 'Directory Structure',
-                            link: '/installation',
+                            link: '/getting-started/directory-structure',
                         },
                         {
                             text: 'Configuration',
-                            link: '/installation',
+                            link: '/getting-started/configuration',
+                        }
+                    ],
+                },
+                {
+                    text: 'General',
+                    children: [
+                        {
+                            text: 'Helpers',
+                            link: '/general/helpers',
+                        },
+                    ],
+                },
+                {
+                    text: 'HTTP',
+                    children: [
+                        {
+                            text: 'Routing',
+                            link: '/http/routing',
+                        },
+                        {
+                            text: 'Middleware',
+                            link: '/http/directory-structure',
+                        },
+                        {
+                            text: 'Response',
+                            link: '/http/response',
+                        }
+                    ],
+                },
+                {
+                    text: 'Database',
+                    children: [
+                        {
+                            text: 'Configuration',
+                            link: '/database/configuration',
+                        },
+                        {
+                            text: 'Query Builder',
+                            link: '/database/query-builder',
+                        },
+                        {
+                            text: 'Migration',
+                            link: '/database/migration',
                         }
                     ],
                 },
