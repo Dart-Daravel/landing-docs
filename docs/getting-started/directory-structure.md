@@ -21,6 +21,8 @@ my-project/
 |  |--config
 |  |  |--app.dart
 |  |  |--database.dart
+|  |--models/
+|  |     |--user.dart
 |  |--core
 |  |  |--helpers.dart
 |  |--database
