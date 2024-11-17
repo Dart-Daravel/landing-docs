@@ -48,8 +48,12 @@ class Payment {
 Every config file has the `@Config` annotation at the top of the class. without it, the code generator will not be able to find the config file and generate it's map.
 :::
 
+## Usage
+
 To get a config value, you can use the `config()` helper function like below to get the `tokenTTL` value in the example config file above:
 
 ```dart
 int tokenTTL = config<int>('payment.tokenTTL');
 ```
+
+You can also specify a default value of the config field as the second argument of the `config` function in case the config value isn't set.
