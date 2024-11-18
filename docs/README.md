@@ -1,6 +1,16 @@
 ---
 home: true
 navbar: false
+tagline: "A Back-End Framework inspired by PHP's popular Back-End Framework: Laravel, written in Dart."
+features:
+  - title: Dart
+    details: Experience Dart features beyond Flutter.
+  - title: Familiar Routing
+    details: 'Laravel like routing and Annotation based routing  (WIP)'
+  - title: Database Support
+    details: 'Rich database support for SQLite, [WIP: MongoDB, PostgreSQL, MySQL].'
+  - title: ORM
+    details: We take relationships seriously ;-).
 ---
 
 <div style="text-align:center;">

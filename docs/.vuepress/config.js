@@ -6,6 +6,7 @@ export default defineUserConfig({
     bundler: viteBundler(),
     theme: defaultTheme(
         {
+            logo: 'assets/logo.svg',
             sidebar: [
                 {
                     text: 'Getting Started',
@@ -64,6 +65,10 @@ export default defineUserConfig({
                         {
                             text: 'Migration',
                             link: '/database/migration',
+                        },
+                        {
+                            text: 'ORM',
+                            link: '/database/migration',
                         }
                     ],
                 },
@@ -71,7 +76,6 @@ export default defineUserConfig({
         }
     ),
     title: 'Daravel',
-    description: 'A Back-End Framework inspired by PHP\'s popular Back-End Framework: Laravel, written in Dart.',
     head: [
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap' }],
     ],
