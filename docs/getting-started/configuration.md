@@ -57,3 +57,23 @@ int tokenTTL = config<int>('payment.tokenTTL');
 ```
 
 You can also specify a default value of the config field as the second argument of the `config` function in case the config value isn't set.
+
+## Env Files
+
+Daravel supports the use of .env files and can be used together with your configuration files, below is a slight modification to two examples above.
+
+```dart
+import 'package:daravel_core/annotations/config.dart';
+
+@Config()
+class Payment {
+  String gateway = env<String>('PAYMENT_GATEWAY', 'stripe');
+
+  int tokenTTL = env<int>('TOKEN_TTL');
+
+  int minimumDeposit = env<int>('MINIMUM_DEPOSIT', 1000);
+
+  // Other config fields
+}
+
+```
