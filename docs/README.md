@@ -11,6 +11,7 @@ features:
     details: 'Rich database support for SQLite, [WIP: MongoDB, PostgreSQL, MySQL].'
   - title: ORM
     details: We take relationships seriously ;-).
+footer: '© 2024 Daravel'
 ---
 
 <div style="text-align:center;">
