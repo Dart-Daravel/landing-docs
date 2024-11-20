@@ -4,7 +4,7 @@ import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
     bundler: viteBundler(),
-    base: '/landing-docs/',
+    base: 'landing-docs/',
     theme: defaultTheme(
         {
             logo: 'assets/logo.svg',
