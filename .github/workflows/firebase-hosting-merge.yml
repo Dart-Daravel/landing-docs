@@ -18,6 +18,8 @@ jobs:
 
       - run: npm run docs:build
 
+      - run: echo "daravel.dev" >> docs/.vuepress/dist/CNAME
+
       # - uses: FirebaseExtended/action-hosting-deploy@v0
       #   with:
       #     repoToken: ${{ secrets.GITHUB_TOKEN }}

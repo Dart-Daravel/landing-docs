@@ -3,6 +3,7 @@
         "crossorigin",
         "Daravel",
         "dartisan",
+        "ghaction",
         "Laravel",
         "pubspec",
         "vuepress"
