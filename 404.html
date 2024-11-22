@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"><title>Daravel</title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-fPIpi2fW.css" as="style"><link rel="stylesheet" href="/assets/style-fPIpi2fW.css">
+    <link rel="modulepreload" href="/assets/app-e03MkAss.js"><link rel="modulepreload" href="/assets/404.html-D_8cb0L7.js">
+    <link rel="prefetch" href="/assets/index.html-Davj-lg2.js" as="script"><link rel="prefetch" href="/assets/configuration.html-B6LH_S_N.js" as="script"><link rel="prefetch" href="/assets/query-builder.html-B4uZhO7P.js" as="script"><link rel="prefetch" href="/assets/configuration.html-CEIXrRCy.js" as="script"><link rel="prefetch" href="/assets/directory-structure.html-DAwoJY9-.js" as="script"><link rel="prefetch" href="/assets/installation.html-D0ZCCmip.js" as="script"><link rel="prefetch" href="/assets/helpers.html-BUxWQ49Z.js" as="script"><link rel="prefetch" href="/assets/routing.html-CNffIXiU.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-463c2c5d><main class="page" data-v-463c2c5d><div class="theme-default-content" vp-content data-v-463c2c5d><h1 data-v-463c2c5d>404</h1><blockquote data-v-463c2c5d>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/" data-v-463c2c5d>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-e03MkAss.js" defer></script>
+  </body>
+</html>

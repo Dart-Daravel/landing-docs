@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"><title>Daravel</title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-fPIpi2fW.css" as="style"><link rel="stylesheet" href="/assets/style-fPIpi2fW.css">
+    <link rel="modulepreload" href="/assets/app-e03MkAss.js"><link rel="modulepreload" href="/assets/index.html-Davj-lg2.js">
+    <link rel="prefetch" href="/assets/configuration.html-B6LH_S_N.js" as="script"><link rel="prefetch" href="/assets/query-builder.html-B4uZhO7P.js" as="script"><link rel="prefetch" href="/assets/configuration.html-CEIXrRCy.js" as="script"><link rel="prefetch" href="/assets/directory-structure.html-DAwoJY9-.js" as="script"><link rel="prefetch" href="/assets/installation.html-D0ZCCmip.js" as="script"><link rel="prefetch" href="/assets/helpers.html-BUxWQ49Z.js" as="script"><link rel="prefetch" href="/assets/routing.html-CNffIXiU.js" as="script"><link rel="prefetch" href="/assets/404.html-D_8cb0L7.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-navbar no-sidebar external-link-icon" vp-container><!--[--><!----><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-home"><header class="vp-hero"><!----><h1 id="main-title">Daravel</h1><p class="vp-hero-description">A Back-End Framework inspired by PHP&#39;s popular Back-End Framework: Laravel, written in Dart.</p><!----></header><div class="vp-features"><!--[--><div class="vp-feature"><h2>Dart</h2><p>Experience Dart features beyond Flutter.</p></div><div class="vp-feature"><h2>Familiar Routing</h2><p>Laravel like routing and Annotation based routing  (WIP)</p></div><div class="vp-feature"><h2>Database Support</h2><p>Rich database support for SQLite, [WIP: MongoDB, PostgreSQL, MySQL].</p></div><div class="vp-feature"><h2>ORM</h2><p>We take relationships seriously ;-).</p></div><!--]--></div><div class="theme-default-content" vp-content><div><div style="text-align:center;"><a class="button mr-2" href="https://join.slack.com/t/daravel/shared_invite/zt-2s83ned44-v49XO7LJ~Ab403PouD947g">Join our Slack Community</a><a class="button" href="getting-started/installation">Documentation</a></div><p class="center my-2">To Get Started</p><div class="language-bash" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre><code><span class="line"><span class="token comment"># Install Daravel</span></span>
+<span class="line">dart pub global activate daravel_core</span>
+<span class="line"><span class="token comment"># Create New Project</span></span>
+<span class="line">dartisan new <span class="token operator">&lt;</span>project<span class="token operator">&gt;</span></span>
+<span class="line"></span></code></pre></div></div></div><!--[--><div class="vp-footer" vp-footer>© 2024 Daravel</div><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-e03MkAss.js" defer></script>
+  </body>
+</html>

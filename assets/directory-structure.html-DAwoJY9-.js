@@ -1,0 +1,44 @@
+import{_ as i,c as r,b as a,d as s,w as t,a as p,r as o,o as c,e as l}from"./app-e03MkAss.js";const d={},h={class:"table-of-contents"};function u(g,e){const n=o("router-link");return c(),r("div",null,[a("nav",h,[a("ul",null,[a("li",null,[s(n,{to:"#introduction"},{default:t(()=>e[0]||(e[0]=[l("Introduction")])),_:1})]),a("li",null,[s(n,{to:"#generated-files"},{default:t(()=>e[1]||(e[1]=[l("Generated Files")])),_:1})]),a("li",null,[s(n,{to:"#helpers"},{default:t(()=>e[2]||(e[2]=[l("Helpers")])),_:1})])])]),e[3]||(e[3]=p(`<h2 id="introduction" tabindex="-1"><a class="header-anchor" href="#introduction"><span>Introduction</span></a></h2><p>The directory structure of a Daravel application is similar to that of PHP&#39;s Laravel.</p><p>Your project structure will look like below after successfully creating a daravel project.</p><div class="language-plaintext" data-highlighter="prismjs" data-ext="plaintext" data-title="plaintext"><pre><code><span class="line">my-project/</span>
+<span class="line">|--app/</span>
+<span class="line">|  |--http/</span>
+<span class="line">|  |  |--controllers/</span>
+<span class="line">|  |  |  |--controller.dart</span>
+<span class="line">|  |  |  |--home_controller.dart</span>
+<span class="line">|  |  |--middleware/</span>
+<span class="line">|  |--bootstrap</span>
+<span class="line">|  |     |--.gitignore</span>
+<span class="line">|  |     |--app.dart</span>
+<span class="line">|  |     |--config.dart /* generated */</span>
+<span class="line">|  |--config</span>
+<span class="line">|  |  |--app.dart</span>
+<span class="line">|  |  |--database.dart</span>
+<span class="line">|  |--models/</span>
+<span class="line">|  |     |--user.dart</span>
+<span class="line">|  |--core</span>
+<span class="line">|  |  |--helpers.dart</span>
+<span class="line">|  |--database</span>
+<span class="line">|  |  |--migrations/</span>
+<span class="line">|  |  |  |--migrations.dart /* generated */</span>
+<span class="line">|  |  |  |--2024_11_02_05_21_12_create_users_table.dart</span>
+<span class="line">|  |  |  |--2024_11_05_05_21_50_create_roles_table.dart</span>
+<span class="line">|  |--public/</span>
+<span class="line">|  |  |--index.html</span>
+<span class="line">|  |--resources</span>
+<span class="line">|  |  |--views/</span>
+<span class="line">|  |  |--css/</span>
+<span class="line">|  |  |--js/</span>
+<span class="line">|  |--routes</span>
+<span class="line">|  |  |--api.dart</span>
+<span class="line">|  |  |--web.dart</span>
+<span class="line">|  |--test/</span>
+<span class="line">|  |  |--server_test.dart</span>
+<span class="line">|--.dockerignore</span>
+<span class="line">|--.env.example</span>
+<span class="line">|--.gitignore</span>
+<span class="line">|--analysis_options.yaml</span>
+<span class="line">|--Dockerfile</span>
+<span class="line">|--main.dart</span>
+<span class="line">|--pubspec.yaml</span>
+<span class="line">|--README.md</span>
+<span class="line"></span></code></pre></div><h2 id="generated-files" tabindex="-1"><a class="header-anchor" href="#generated-files"><span>Generated Files</span></a></h2><p>As Dart is a compiled language, Daravel relies on code generation to make certain files available to the core app instance in order to function as intended. at any point in time when you need to generate the necessary files for your project, you can run the below:</p><div class="language-bash" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre><code><span class="line">dartisan generate</span>
+<span class="line"></span></code></pre></div><p>At this time, the files generated are <code>bootstrap/config.dart</code> which is a map of all the files in the <code>app/config</code> directory, and <code>database/migrations/migrations.dart</code> which contains a list of migration classes contained in the <code>database/migrations</code> directory.</p><h2 id="helpers" tabindex="-1"><a class="header-anchor" href="#helpers"><span>Helpers</span></a></h2><p>Your helpers are usually located in the <code>app/helpers</code> directory, though it can be anywhere, while Daravel helper functions can be found in the <code>core</code> folder which contains a single <code>helper.dart</code> with functions like <code>env()</code> and <code>app()</code>.</p>`,10))])}const f=i(d,[["render",u],["__file","directory-structure.html.vue"]]),_=JSON.parse('{"path":"/getting-started/directory-structure.html","title":"","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Introduction","slug":"introduction","link":"#introduction","children":[]},{"level":2,"title":"Generated Files","slug":"generated-files","link":"#generated-files","children":[]},{"level":2,"title":"Helpers","slug":"helpers","link":"#helpers","children":[]}],"git":{"updatedTime":1732249257000,"contributors":[{"name":"The Full-Stack Jonin","email":"francis94c@gmail.com","commits":1}]},"filePathRelative":"getting-started/directory-structure.md"}');export{f as comp,_ as data};
