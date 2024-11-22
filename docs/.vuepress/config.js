@@ -42,13 +42,9 @@ export default defineUserConfig({
                             link: '/http/routing',
                         },
                         {
-                            text: 'Middleware',
+                            text: 'Handling Requests',
                             link: '/http/directory-structure',
                         },
-                        {
-                            text: 'Response',
-                            link: '/http/response',
-                        }
                     ],
                 },
                 {

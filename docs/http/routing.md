@@ -51,12 +51,31 @@ apiRouter.group('/users', (router) {
 });
 ```
 
-<!-- You can also add middleware to a group
+You can also add middlewares to a group
 
 ```dart
 apiRouter.group('/users', (router) {
     router.post('transfer', UserController().transfer);
     router.delete('/', UserController().delete);
     router.post('block', UserController().block);
-}).middleware();
-``` -->
+}).middleware(ValidUserMiddleware());
+```
+
+## Path Parameters
+
+The router also supports passing route parameters. Consider the following route and controller:
+
+```dart title="routes/api.dart"
+apiRouter.get('/users/{userId}', UserController().getUser);
+```
+
+```dart title="app/controllers/user_controller.dart'
+class UserController extends Controller {
+  Response getUser(Request req, String userId) async {
+    final user = await fetchUserFromDatabase(userId);
+    return response().json(user);
+  }
+}
+```
+
+Notice how userId specified in the route can be obtained from a positional parameter in the controller function.
